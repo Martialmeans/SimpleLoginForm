@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- div container for form element -->
+     <div class="container">
+        <!-- form element -->
+        <form autocomplete="on">
+            <!-- Form Heading -->
+            <h1 class="heading">Login</h1>
+            <!-- input section for username & password -->
+            <div class="username">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <label for="email"><i class='bx bxs-envelope bx-sm'></i></label>
+            </div>
+            <div class="password">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <label for="password"><i class='bx bx-lock bx-sm'></i></label>
+            </div>
+            <!-- remember me & forgot password -->
+            <div class="checks">
+                <lebel for="remember">
+                    <input type="checkbox" name="remember" id="remember" checked>
+                    Remember me
+                </lebel>
+                <p>Forgot <a href="#">password?</a></p>
+            </div>
+            <!-- submit button -->
+            <button type="submit">Login</button>
+            <!-- create account part -->
+             <p class="create">Don't have an account?<a href="#">Register</a></p>
+        </form>
+     </div>
+</body>
+</html>
